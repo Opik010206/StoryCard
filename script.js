@@ -56,8 +56,8 @@ Tombol.addEventListener("click", function (e) {
         Ctr.insertBefore(div, tForm);
     }
   
-//   input.value='';
-//   desc.value='';
+  input.value='';
+  desc.value='';
 
   setTimeout(() => {
         form.style.display='none';
