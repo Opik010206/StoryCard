@@ -46,7 +46,7 @@ Tombol.addEventListener("click", function (e) {
     if(input.value == '' || desc.value == ''){
         alert('Maaf data anda tidak ditambahkan, salah satu atau kedua inputannya harus di isi ya.. :)');
     }else{
-        caption.remove()
+        caption.style.display="none";
 
         // Memasukkan Element Ke Element Lain
         div.appendChild(h2);
